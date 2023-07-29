@@ -14,9 +14,24 @@ export default {
   components: { 
     PrimeiroComponente,
     LifeCycle,
-    Pessoa 
+    Pessoa,
   }
 };
 </script>
 
-<style></style>
+<style lang="scss">
+  body {
+    background-color: #333;
+    color: #ccc;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      color: blue;
+    }
+  }
+</style>
